@@ -14,7 +14,7 @@ public class Test {
 
 	public static void main(String[] args) {
 
-		Console c= new Salon("Xbox",500,LocalDate.parse("2015-07-06");
+		Console c= new Salon("Xbox",500,LocalDate.parse("2015-07-06"));
 	
 		Jeu j1= new Jeu("Warzone", c);
 		Jeu j2= new Jeu("Pokemon", c);
