@@ -1,14 +1,31 @@
 package model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Client {
 		private String nom;
 		private String prenom;
+		private List<Achat> matchs=new ArrayList();
 		
 		
-		public Client(String nom, String prenom) {
-		
+
+
+		public List<Achat> getMatchs() {
+			return matchs;
+		}
+
+
+		public void setMatchs(List<Achat> matchs) {
+			this.matchs = matchs;
+		}
+
+
+		public Client(String nom, String prenom, List<Achat> matchs) {
+			super();
 			this.nom = nom;
 			this.prenom = prenom;
+			this.matchs = matchs;
 		}
 
 
@@ -34,9 +51,11 @@ public class Client {
 
 		@Override
 		public String toString() {
-			return "Client [nom=" + nom + ", prenom=" + prenom + "]";
+			return "Client [nom=" + nom + ", prenom=" + prenom + ", matchs=" + matchs + "]";
 		}
-		
+
+
+
 		
 		
 
