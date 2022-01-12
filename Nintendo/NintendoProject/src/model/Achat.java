@@ -3,9 +3,9 @@ package model;
 import java.time.LocalDate;
 
 public class Achat {
-	Jeu j;
-	LocalDate date;
-	Double prix;
+	private Jeu j;
+	private LocalDate date;
+	private Double prix;
 	
 	public Jeu getJ() {
 		return j;

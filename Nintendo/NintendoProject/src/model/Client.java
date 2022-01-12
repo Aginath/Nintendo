@@ -8,8 +8,6 @@ public class Client {
 		private String prenom;
 		private List<Achat> matchs=new ArrayList();
 		
-		
-
 
 		public List<Achat> getMatchs() {
 			return matchs;

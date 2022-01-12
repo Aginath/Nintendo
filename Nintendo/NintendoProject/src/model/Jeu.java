@@ -8,19 +8,12 @@ public class Jeu {
 	private Console console;
 	private Boutique boutique;
 	
-<<<<<<< HEAD
-	
-	
-	
 
-
-	public Jeu(String titre, Console console) {
-=======
 
 
 	public Jeu(String titre, Console console, Boutique boutique) {
 		super();
->>>>>>> Agi
+
 		this.titre = titre;
 		this.console = console;
 		this.boutique = boutique;
@@ -28,7 +21,7 @@ public class Jeu {
 
 
 
-	public Boutique getBoutique() {
+	public Boutique getBoutique1() {
 		return boutique;
 	}
 
@@ -68,9 +61,6 @@ public class Jeu {
 
 
 
-	public void setBoutique(Boutique boutique) {
-		this.boutique = boutique;
-	}
 
 
 
